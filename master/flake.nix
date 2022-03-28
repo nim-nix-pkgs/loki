@@ -11,7 +11,6 @@
   inputs.src-loki-master.ref   = "refs/heads/master";
   inputs.src-loki-master.owner = "beshrkayali";
   inputs.src-loki-master.repo  = "loki";
-  inputs.src-loki-master.dir   = "";
   inputs.src-loki-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

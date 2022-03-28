@@ -11,7 +11,6 @@
   inputs.src-loki-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-loki-0_1_0.owner = "beshrkayali";
   inputs.src-loki-0_1_0.repo  = "loki";
-  inputs.src-loki-0_1_0.dir   = "";
   inputs.src-loki-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
